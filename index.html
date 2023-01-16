@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width">
+      <link rel="stylesheet"href="reset.css">
+      <link rel="stylesheet" href="styles.css">
+      <title>Encriptador</title>
+      
+     
+
+    </head>
+    
+    <body class="cuerpo">
+        <header>
+            <div class="cabeza">
+                <img class= "logo" src="imagenes/j.png">
+              <nav class="titulo">
+                <h1 class=>Encriptador de texto</h1>
+              </nav>
+            </div>
+            
+        </header>
+        
+        <main>
+            <section>
+                <div>
+                    <textarea class="textoentrada" cols="40" rows="6" placeholder="Ingrese texto aquí"></textarea>
+                </div>
+
+                <div class="botones">
+
+                    <button class="btnencriptar" onclick="botonencriptar()">Encriptar</button>
+                    <button class="btndesencriptar" onclick="botondesencriptar()">Desencriptar</button>
+
+                </div>
+            </section>
+            <section>
+                <div class="twotextarea">
+                <textarea class="textoencriptado" cols="18" rows="8" placeholder="No se ha encontrado ningún texto"></textarea>          
+                </div>   
+            
+                <div>
+                    <button class="btncopiar" onclick="copiar()">Copiar</button>
+                </div>
+                
+            </section>
+        </main>
+        <footer>
+            <P class="piepagina"> &#169 By Joaquin Ugarte - 2022</P>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
+

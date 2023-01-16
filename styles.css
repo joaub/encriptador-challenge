@@ -1,0 +1,163 @@
+
+.cuerpo{
+  background-image: url(imagenes/nubes.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cabeza{
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  
+}
+.logo{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  display: inline-block;
+  width: 40px;
+  
+}
+.titulo{
+  display: inline-block;
+  font-size: 24px;  
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 400px;
+  margin-bottom:30px;
+  color:rgb(235, 221, 36);
+  text-shadow: 2px 2px 2px black;
+  position: absolute;
+  top: 21.5px;
+  right: 0px;
+  margin-right: 550px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+main{
+  display: flex;
+  height: auto;
+  position: relative;
+  text-align: center;
+  margin-left: 5%;
+    
+}
+.textoentrada{
+  background-color: rgb(165, 165, 170);
+  height: 500px;
+  width: 700px;
+  font-size: 15px;
+  border-radius: 10px ;
+    
+}
+.twotextarea{
+  margin-left: 20%;
+}
+.textoencriptado{
+  background-color: rgb(163, 163, 170);
+  background-image: url(imagenes/Muñeco.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px ;
+  font-size: 15px;
+  
+}
+
+.botones{
+  margin-top: 10px;
+}
+
+.btnencriptar {
+  background-color: gray;
+  display: flex;
+  display: inline-block;
+  flex-direction:row;
+  border-radius: 20px ;
+  padding: 5px;
+  width: 200px;
+  height: 50px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: white;
+  font-size: 20px;
+  color: white;
+  
+}
+
+.btndesencriptar {
+  background-color: gray;
+  display: flex;
+  display:inline-block ;
+  flex-direction:row;
+  padding: 5px;
+  width: 200px;
+  height: 50px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px ;
+  font-size: 20px;
+  color: white;
+  
+}
+
+.btncopiar{
+  background-color: gray;
+  display: flex;
+  display:inline-block ;
+  flex-direction:row;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 43%;
+  width: 200px;
+  height: 50px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px ;
+  font-size: 20px;
+  color: white;
+    
+}
+.piepagina{
+  padding: 1%;
+  text-align: center;
+  font-size: 15px;
+  color:rgb(205, 245, 26);
+  margin-top: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+@media screen and (max-width:480px) {
+
+.titulo {margin-left: auto;
+  margin-right: auto;
+  position:static ;
+}
+main{
+  display: block;
+  margin-left: auto;
+}
+
+.textoentrada{
+  margin-left: auto;
+ 
+}
+.twotextarea{
+  margin-left: auto;
+}
+.textoencriptado{
+  margin-top: 4%;
+  
+}
+.btncopiar{
+  margin-left: auto;
+}
+} 
+ 
